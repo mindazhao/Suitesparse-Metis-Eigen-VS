@@ -48,15 +48,14 @@ add_subdirectory("programs")
 * execute Cmake
 1. set Source code as SP_ROOT 
 </br> 
-1. set path of build as SP_ROOT/build
+2. set path of build as SP_ROOT/build
 </br>
-1. press "configure"
+3. press "configure"
 </br>
-1. then you will see some red place as follows,please ignore them and go on.
+4. then you will see some red place as follows,please ignore them and go on.
 </br>
-1.  press "Generate"
-</br>
-1. open the visual studio project "suitespareproject.sln" and ser INSTALL as the boot item and build in debug and release mode. 22 projects will be built successly.
+5.  press "Generate"
+- open the visual studio project "suitespareproject.sln" and ser INSTALL as the boot item and build in debug and release mode. 22 projects will be built successly.
 
 - test
 use the code
