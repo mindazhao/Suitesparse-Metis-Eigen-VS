@@ -46,16 +46,12 @@ add_subdirectory("programs")
 
 ```
 * execute Cmake
-1. set Source code as SP_ROOT 
-</br> 
+1. set Source code as SP_ROOT  
 2. set path of build as SP_ROOT/build
-</br>
 3. press "configure"
-</br>
 4. then you will see some red place as follows,please ignore them and go on.
-</br>
 5.  press "Generate"
-- open the visual studio project "suitespareproject.sln" and ser INSTALL as the boot item and build in debug and release mode. 22 projects will be built successly.
+* open the visual studio project "suitespareproject.sln" and ser INSTALL as the boot item and build in debug and release mode. 22 projects will be built successly.
 
 - test
 use the code
@@ -66,7 +62,7 @@ use the code
 #include "Eigen/SPQRSupport"
 using namespace Eigen ;
 int main ( ) {
-	
+    
 	SparseMatrix < double > A ( 4 , 4 ) ;
 	std :: vector < Triplet < double > > triplets ;
  
